@@ -1,0 +1,53 @@
+---
+title: このBlog(?)について
+date: December 16, 2015
+---
+
+Hakyllでブログのような何かを作りました。
+もうちょっと色々いじると思いますがとりあえず公開って感じです。
+
+以下、シンタックスハイライトテスト。
+
+C++
+
+~~~~~~{.cpp .numberLines}
+#include <iostream>
+
+int main() {
+	for (int i = 0; i < 100; i++)
+		std::cout << "Hello, world!" << std::endl;
+	return 0;
+}
+~~~~~~
+
+Haskell
+
+~~~~~~{.haskell .numberLines}
+import Data.List
+
+main = print $ foldl' (+) [1..100]
+~~~~~~
+
+Idris
+
+~~~~~{.idris .numberLines}
+data Vect : Nat -> (a : Type) -> Type where
+    Nil : Vect 0 a
+    (::) : a -> Vect k a -> Vect (S k) a
+~~~~~
+
+Vim script
+
+~~~~~~{.vim .numberLines}
+for s:i in ['()', '[]', '{}']
+	exec 'inoremap' . s:i . ' ' . s:i . '<Left>'
+endfor
+~~~~~~
+
+Vim script対応してないっぽいけど自分で書けたりするのだろうか。
+あと上のC++背景幅足りてないけど大丈夫かな...
+
+TODOのようなもの
+
+ * ジャンル別的なの
+ * 数式が綺麗に出せるようにする

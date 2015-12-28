@@ -1,0 +1,79 @@
+body {
+	/*color: #a9dbe0;*/
+    color: darkslategray;
+	/*background: #000060;*/
+	background: ivory;
+	font-size: 16px;
+	margin: 0px auto 0px auto;
+	width: 600px;
+}
+
+a {
+	color: seagreen;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: cadetblue;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: dodgerblue;
+	text-decoration: underline;
+}
+
+div#header {
+	border-bottom: 3px solid peachpuff;
+	margin-bottom: 30px;
+	padding: 12px 0px 12px 0px;
+}
+
+div#logo a {
+	/*color: #cc65ff;*/
+    color: lightcoral;
+	float: left;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+div#header #navigation {
+	text-align: right;
+}
+
+div#header #navigation a {
+	/*color: #40e0d0;*/
+    color: orchid;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 12px;
+	text-decoration: none;
+}
+
+div#footer {
+	border-top: solid 2px peachpuff;
+	color: plum;
+	font-size: 12px;
+	margin-top: 30px;
+	padding: 12px 0px 12px 0px;
+	text-align: right;
+}
+
+h1 {
+	font-size: 24px;
+	border-bottom: solid 3px peachpuff;
+	/*color: #00ced1;*/
+    color: orange;
+}
+
+h2 {
+	font-size: 20px;
+    color: sandybrown;
+}
+
+div.info {
+	color: orchid;
+	font-size: 14px;
+	font-style: italic;
+}
