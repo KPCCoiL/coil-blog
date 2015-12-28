@@ -1,6 +1,6 @@
 ---
 title: このBlog(?)について
-date: December 16, 2015
+date: December 28, 2015
 ---
 
 Hakyllでブログのような何かを作りました。
