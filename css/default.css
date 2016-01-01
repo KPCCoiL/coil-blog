@@ -33,7 +33,7 @@ div#logo a {
 	/*color: #cc65ff;*/
     color: lightcoral;
 	float: left;
-	font-size: 25px;
+	font-size: 28px;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -61,14 +61,20 @@ div#footer {
 }
 
 h1 {
-	font-size: 24px;
+	font-size: 26px;
 	border-bottom: solid 3px peachpuff;
 	/*color: #00ced1;*/
     color: orange;
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 24px;
+    color: sandybrown;
+    border-bottom: solid 2px peachpuff;
+}
+
+h3 {
+    font-size: 20px;
     color: sandybrown;
 }
 
