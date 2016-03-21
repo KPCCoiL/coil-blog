@@ -83,3 +83,13 @@ div.info {
 	font-size: 14px;
 	font-style: italic;
 }
+
+li {
+    list-style-type: none;
+}
+
+li:before {
+    content: "✿ ";
+    font-size: 12px;
+    color: orchid;
+}
